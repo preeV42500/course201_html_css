@@ -188,3 +188,32 @@ textarea {
   height: 140px;
   resize: none;
 }
+
+@media (max-width: 768px) {
+  body > header {
+    padding: 40px 0 20px 0;
+
+  }
+  body > header h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 600px) {
+  #content {
+    float: none;
+    width: auto;
+    padding: 0 25px 50px 25px;
+  }
+  #sidebar .block {
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+  }
+  #sidebar ul {
+    padding-bottom: 0;
+  }
+}
