@@ -217,3 +217,31 @@ textarea {
     padding-bottom: 0;
   }
 }
+
+@media (max-width: 480px) {
+  body > header {
+    padding-bottom: 0;
+  }
+  body > header h1 {
+    padding: 0 0 90px 0;
+    margin: 0 0 50px 0;
+    background-size: 90% auto;
+  }
+  nav li {
+    display: inline-block;
+    width: 49%;
+    padding: 10px 0;
+    box-sizing: border-box;
+  }
+  #sidebar {
+    padding: 0 25px;
+    background: transparent;
+  }
+  #sidebar .block {
+    display: block;
+    width: auto;
+    padding: 20px;
+    margin: 0 0 25px 0;
+    background: #f6f7f8;
+  }
+}
