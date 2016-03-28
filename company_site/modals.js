@@ -4,7 +4,7 @@ $(function() {
     var $e = $(this);
 
     $e.siblings(".modal").css({
-      top: $(window).scrollTop() + 30px;
+      top: $(window).scrollTop() + 30
     });
 
     $e.nextAll("div").fadeIn(400);

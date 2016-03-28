@@ -232,6 +232,13 @@ footer li a.instagram { background-position: 0 100%; }
   footer li {
     padding: 0 32px;
   }
+  .modal {
+    left: 0;
+    width: 100%;
+    padding: 50px 30px;
+    margin: 0;
+    box-sizing: border-box;
+  }
 }
 
 @media (max-width: 480px) {
